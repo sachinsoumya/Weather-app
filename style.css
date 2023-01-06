@@ -11,7 +11,27 @@ body{
     background-position: top center;
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
+    /* padding-bottom: 20px; */
     /* border: 1px solid black; */
+}
+.head{
+    text-align: center;
+}
+.head1{
+    font:normal small-caps bold 30px Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow:2px 2px 5px black;
+}
+.head2{
+    font:normal small-caps bold 10px Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    transform: translate(0px,20px);
+}
+.head3{
+    font:italic small-caps bold 10px Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    transform: translate(0px,10px);
+
 }
 .app-min {
     width: 50vh;
@@ -19,7 +39,9 @@ body{
     background-color: lightgrey;
     padding: 20px;
     text-align: center;
-    transform: translate(0px , 150px);
+    transform: translate(0px , 100px);
+    /* position: relative;
+    bottom: 30px; */
     
 
 }
@@ -75,6 +97,8 @@ body{
     body{
         height: 600px;
     }
+    
+    
     .weather-status{
         padding-top:10px ;
     }
