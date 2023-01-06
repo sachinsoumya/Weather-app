@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./image/ClearSky.jpg');
+    height:1000px;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+.app-min {
+    width: 50vh;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    transform: translate(0px , 150px);
+    
+
+}
+.app-min > *{
+    margin-bottom: 20px;
+}
+.input-box {
+    width: 100%;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    color: brown;
+    font-size: medium;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.input-box:focus{
+    background-color:wheat;
+}
+.weather-body{
+    display:none;
+    color : brown;
+    padding: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 50vh;
+}
+.location{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.weather-status{
+    padding: 20px;
+
+}
+.temp{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+    margin: 3px;
+    color: brown;
+}
+.min-max , .weather {
+    font-size: 20px;
+    font-weight: 10px;
+    margin: 8px;
+}
+@media (max-width:1024px) {
+    body{
+        height: 600px;
+    }
+    .weather-status{
+        padding-top:10px ;
+    }
+    .location{
+        font-size:16px ;
+    }
+    .min-max {
+        font-size: 15px;
+        font-weight: 6px;
+        margin: 8px;
+
+    }
+    .weather{
+        font-size: 10px;
+        margin:8px ;
+    }
+    
+}
+@media (max-width:913px) {
+    body{
+        height:1368px;
+}
+    .location{
+        font-size: 35px;
+        padding-top: inherit;
+    }
+    .weather-status{
+        padding-top: 70px;
+    }
+    .weather-body{
+        padding-top: 90px;
+    }
+    .input-box{
+        font-size: large;
+
+    }
+    .min-max , .weather {
+        font-size: 30px;
+        font-weight: 10px;
+        margin: 8px;
+
+    
+}
+}
+@media (max-width:830px) {
+    body{
+        height: 1180px;
+    }
+    
+    .app-min{
+        width: 40vh;
+    }
+    .location{
+        font-size:30px ;
+        
+    }
+    .weather-status{
+        padding-top: 40px;
+    }
+    .weather-body{
+        padding-top: 50px;
+    }
+    
+}
+@media (max-width:541px) {
+    body{
+        height: 915px;
+    }
+    .app-min{
+        width:30vh;
+        
+
+    }
+    .weather-body{
+        padding: 0px;
+        padding: 15px ;
+    }
+    .location{
+        font-size: 12px;
+       
+    }
+    .weather-status{
+        padding-top: 3px;
+    }
+    .min-max , .weather{
+        font-size: 10px;
+        font-weight: 10px;
+        margin:-8px;
+        
+    }
+    .weather{
+        font-size: 10px;
+        font-weight: 10px;
+        margin:2px;
+    }
+
+    .temp{
+        font-size:30px;
+    }
+    .app-min > *{
+        margin-bottom: 20px;
+    }
+}
+
+
+    
+    
+
+
+
